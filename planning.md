@@ -126,7 +126,7 @@ Visual Studio Code – Code editor
 GitHub – Version control and project management  
 GitHub Pages – Website hosting  
 Google Chrome – Browser testing  
-Figma – Wireframe design
+
 
 These tools were selected because they support modern web development workflows.
 
