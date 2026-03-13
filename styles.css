@@ -1,1 +1,133 @@
+/* GENERAL PAGE STYLE */
 
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+line-height:1.6;
+}
+
+header{
+background:#1E3A8A;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+/* FLEXBOX NAVIGATION */
+
+nav ul{
+display:flex;
+justify-content:center;
+gap:25px;
+list-style:none;
+padding:10px;
+background:#333;
+margin:0;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+color:orange;
+}
+
+/* GRID LAYOUT FOR HOME PAGE */
+
+.sports-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* IMAGES */
+
+img{
+max-width:100%;
+border-radius:5px;
+}
+
+/* TABLES */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th, td{
+border:1px solid #ccc;
+padding:10px;
+text-align:center;
+}
+
+th{
+background:#1E3A8A;
+color:white;
+}
+
+/* FORM */
+
+form{
+background:white;
+padding:20px;
+max-width:500px;
+margin:auto;
+border-radius:8px;
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+margin-bottom:10px;
+border:1px solid #ccc;
+}
+
+button{
+background:#1E3A8A;
+color:white;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0f2a66;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#333;
+color:white;
+margin-top:20px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width:768px){
+
+nav ul{
+flex-direction:column;
+align-items:center;
+}
+
+.sports-grid{
+grid-template-columns:1fr;
+}
+
+}
