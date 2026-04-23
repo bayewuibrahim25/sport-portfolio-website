@@ -165,3 +165,33 @@ Sports-Hub/
 │── planning.md
 │── readme.md
 │── maintenance.md
+
+
+## 8. Development Process
+
+I started by building the HTML structure for all pages. Then I created the navigation system to ensure all pages were connected. After that, I added content for each sport section.
+
+Next, I built the CSS styling including Flexbox for navigation and Grid for the homepage layout. Finally, I tested responsiveness and fixed layout issues for mobile screens.
+
+---
+
+## 9. Challenges
+
+**Problem:** Making layout responsive  
+**Solution:** Used media queries and grid adjustments  
+
+**Problem:** Organising multiple pages consistently  
+**Solution:** Reused navigation and shared CSS file  
+
+---
+
+## 10. Learning Reflection
+
+I learned how to structure a multi-page website using semantic HTML. I improved my understanding of Flexbox and CSS Grid for layout design. I also learned how to make websites responsive for mobile devices using media queries.
+
+This project helped me understand how real websites are structured and how important consistency and planning are in web development.
+
+---
+
+**Documentation completed:** 23.4. 2026  
+**Total pages:** 5  
