@@ -1,143 +1,208 @@
-# Website Planning Documentation
+# Website Planning Document
 
-## Website Purpose
-The purpose of this project is to design and develop a multi-page sports website using HTML5 and CSS3. The website demonstrates modern web development techniques including responsive design, semantic HTML structure, and organized navigation.
+**Your Name:** Ibrahim Bayewu 
+**Date Started:** 26.03.2026  
+**Topic:** Sports Hub Website
 
-The website provides information about popular sports such as football and basketball, as well as training and fitness tips.
 
----
 
-## Target Audience
-The target audience for this website includes:
+## 1. Foundation
 
-- Sports fans
-- Students interested in sports
-- People interested in learning about training and fitness
+### What is your website about?
 
-The website is designed to be easy to navigate and visually clear so that users can quickly access the information they need.
+My website, Sports Hub, provides information about popular sports such as football, basketball, and sports training. It includes facts, famous players, training advice, and general sports education.
 
----
 
-## Website Objectives
 
-The objectives of the website are:
+### Who is this website for?
 
-- Provide information about popular sports
-- Demonstrate HTML5 and CSS3 development skills
-- Create a visually organized and responsive layout
-- Build a fully functional multi-page website
+The target audience is teenagers and young adults (ages 15–30) who are interested in sports. They want easy-to-read information, images, and quick access to facts about different sports.
 
----
 
-## Design Principles
 
-### Contrast
-Contrast is used by applying different background and text colors to create visual hierarchy. For example, the navigation bar uses a dark background with light text.
+### Objectives
 
-### Repetition
-Design elements such as colors, fonts, and navigation menus are repeated on each page to create a consistent visual identity.
+1. Provide information about popular sports  
+2. Educate users about famous athletes  
+3. Teach basic fitness and training knowledge  
+4. Create a simple, easy-to-use sports website  
 
-### Alignment
-Content is aligned using CSS layout systems such as Flexbox and Grid. This ensures that elements appear organized and structured.
 
-### Proximity
-Related content such as images and descriptions are grouped together in sections so users can easily understand the content.
 
----
+## 2. Site Structure
 
-## Site Structure
+### Pages
 
-The website includes five pages connected through a navigation system.
+1. index.html – Homepage with overview and featured sports  
+2. football.html – Football information and players  
+3. basketball.html – Basketball information and players  
+4. training.html – Fitness and training guide  
+5. contact.html – Contact form and information
 
-Site Map:
+ 
 
-Home (index.html)  
-│  
-├── Football (football.html)  
-├── Basketball (basketball.html)  
-├── Training (training.html)  
-└── Contact (contact.html)
+### Navigation
 
-Users can navigate between pages using the navigation bar at the top of the website.
+- Horizontal navigation bar on all pages  
+- Links to all main pages  
+- Same navigation repeated for consistency  
+- Users always know where they are  
 
----
 
-## Navigation Structure
 
-A horizontal navigation menu is placed at the top of every page. This ensures users can easily move between sections of the website.
+## 3. Design System
 
-Navigation links include:
-
-- Home
-- Football
-- Basketball
-- Training
-- Contact
-
----
-
-## Visual Design
-
-### Color Scheme
-
-Primary color: Dark blue (#1E3A8A)  
-Secondary color: Light gray (#F4F4F4)  
-Accent color: Orange (#F97316)
-
-These colors create a sports themed design with strong contrast and readability.
-
----
+### Colors
+- Primary: #1E3A8A (blue) – sports and energy  
+- Secondary: #333 (dark grey) – contrast  
+- Accent: Orange – highlights  
+- Background: light grey (#f4f4f4)  
 
 ### Typography
+- Arial, sans-serif  
+- Chosen because it is clear and easy to read  
 
-The website uses a clean sans-serif font for readability. Headings are larger than body text to create a clear visual hierarchy.
+
+
+## 4. Design Principles
+
+### Contrast
+Important headings and tables use dark blue backgrounds to stand out.
+
+### Repetition
+Same navigation bar and card styles are used across all pages.
+
+### Alignment
+All content is centered and structured in sections.
+
+### Proximity
+Related information like player stats and descriptions are grouped together.
+
+
+
+## 5. Page Layouts
+
+### Homepage
+- Header + navigation  
+- Hero introduction  
+- Grid of sports cards  
+- Tables and facts  
+- Footer  
+
+### Mobile version
+- Single column layout  
+- Navigation stacks vertically  
+- Cards stacked
+
+
+
+## 6. Technical Planning
+
+### HTML elements
+
+- Tables: sports events + training schedule  
+- Forms: contact page  
+- Lists: players, teams, exercises  
+- Semantic HTML: header, nav, main, section, footer  
+- Images: used in all sport sections  
+
+
+
+### CSS Plan
+
+### Flexbox - Where will it be used?
+
+I will use Flexbox in my navigation bar and for layout alignment.
+
+- Navigation bar: I used Flexbox to display the menu items in a horizontal row and center them across the page. This makes the navigation clean and consistent on all pages.
+- Mobile navigation: Flexbox allows the navigation items to stack vertically on smaller screens using media queries.
+- Card alignment: Flexbox helps align elements inside sections so content is evenly spaced and visually balanced.
+
+Flexbox is useful because it is designed for one-dimensional layouts (row or column), which works perfectly for navigation menus.
+
+
+### Grid - Where will it be used?
+
+I will use CSS Grid on the homepage (index.html) for the sports section.
+
+- Sports grid: The football, basketball, and training cards are arranged using a 3-column grid layout.
+- This layout automatically adjusts based on screen size.
+- On mobile devices, the grid changes into a single-column layout.
+
+Grid is useful because it allows two-dimensional layouts (rows and columns), making it ideal for structured content like cards.
+
+
+### Other CSS
+- Hover effects  
+- Responsive design using media queries  
+- Box shadows and rounded corners  
+
+
+
+## 7. Content Planning
+
+### Content
+- Sports descriptions  
+- Player information  
+- Training guides  
+- Tables of events and schedules  
+- Images of sports  
+
+### Sources
+- ESPN  
+- FIFA website  
+- NBA website  
+- Healthline fitness articles  
+
+
+
+## 8. Development Plan
+
+1. Build HTML structure for all pages  
+2. Add navigation system  
+3. Add content for each sport  
+4. Style using CSS  
+5. Add Flexbox and Grid  
+6. Make responsive  
+7. Test and fix issues  
+
+
+
+## Challenges
+
+### Challenge 1
+Responsive design  
+Solution: Use media queries  
+
+### Challenge 2
+Consistent layout across pages  
+Solution: Reuse same navigation and CSS  
+
+### Challenge 3
+Image organization  
+Solution: Use structured image folder  
+
+
+
+## Tools
+
+- VS Code  
+- Google Chrome  
+- GitHub  
+- W3C Validator  
+
+
+
+## HTML & CSS Evolution
+
+HTML5 introduced semantic elements like nav, section, and footer which make websites easier to understand. CSS evolved to include Flexbox and Grid, which allow modern responsive layouts without complex code.
+
+
+
+## Planning completed: 27.03.2026  
+## Ready to start coding: Yes  
+## First step: Build index.html structure
 
 ---
 
-## Layout Approach
-
-The website uses modern layout techniques including:
-
-- **CSS Flexbox** for navigation and layout alignment
-- **CSS Grid** for content layout
-- **Responsive design** using media queries
-
-This ensures the website works across different screen sizes.
-
----
-
-## Wireframes
-
-Wireframes were created to plan the layout of the following pages:
-
-- Home page
-- Sports information page
-- Contact page
-
-These wireframes helped organize content placement before development began.
-
----
-
-## Development Tools
-
-The following tools were used during development:
-
-Visual Studio Code – Code editor  
-GitHub – Version control and project management  
-GitHub Pages – Website hosting  
-Google Chrome – Browser testing  
-
-
-These tools were selected because they support modern web development workflows.
-
----
-
-## Testing
-
-The website was tested in multiple browsers including:
-
-- Chrome
-- Firefox
-- Edge
-
-Testing ensured that links worked correctly and the layout displayed properly on different screen sizes.
+### Site Map
