@@ -198,14 +198,91 @@ Next, I built the CSS styling including Flexbox for navigation and Grid for the 
 **Solution:** Reused navigation and shared CSS file  
 
 ---
+## 10. Testing
 
-## 10. Learning Reflection
+### Validation
+
+**HTML Validation:**
+All HTML pages were checked for structure and errors. The pages follow proper HTML5 structure using semantic elements such as header, nav, main, section, and footer. No major validation errors were found during testing.
+
+**CSS Validation:**
+The external stylesheet (styles.css) was reviewed to ensure correct syntax and proper organisation. Flexbox and Grid were implemented without errors.
+
+---
+
+### Browser Testing
+
+The website was tested on multiple browsers:
+
+- Chrome: Fully functional, all layouts display correctly  
+- Microsoft Edge: No issues found  
+- Firefox: All pages load correctly with consistent styling  
+- Safari (mobile simulation): Responsive layout works as expected  
+
+---
+
+### Responsive Testing
+
+The website was tested on different screen sizes:
+
+- Desktop (1920px): 3-column grid layout displays correctly on homepage  
+- Tablet (768px): Navigation and grid adjust to smaller layout  
+- Mobile (320px–480px): Navigation stacks vertically and content becomes single column  
+
+All text remains readable and images scale correctly on all devices.
+
+---
+
+### Functionality Testing
+
+The following features were tested:
+
+- All navigation links work correctly between pages  
+- External links open in new tabs (ESPN, FIFA, NBA, Healthline)  
+- Images load correctly with alt text for accessibility  
+- Contact form accepts input fields correctly  
+- Tables display structured data properly  
+- No broken links were found
+## 11. Learning Reflection
 
 I learned how to structure a multi-page website using semantic HTML. I improved my understanding of Flexbox and CSS Grid for layout design. I also learned how to make websites responsive for mobile devices using media queries.
 
 This project helped me understand how real websites are structured and how important consistency and planning are in web development.
 
 ---
+## 12. Future Improvements
+
+If I continue developing this website, I would improve it in the following ways:
+
+### Content Improvements
+- Add more sports such as tennis, rugby, and athletics  
+- Include more detailed player statistics and biographies  
+- Add a news section for latest sports updates  
+- Add video highlights or embedded media content  
+
+---
+
+### Technical Improvements
+- Add a dark mode toggle for better accessibility  
+- Improve animations for page transitions and hover effects  
+- Add a sticky navigation bar for easier browsing  
+- Improve image optimisation using WebP format  
+- Add JavaScript for interactive features (e.g., search bar or filters)  
+
+---
+
+### Design Improvements
+- Improve visual hierarchy using custom Google Fonts  
+- Add smoother animations and transitions between sections  
+- Enhance spacing and layout consistency  
+- Improve mobile navigation with a hamburger menu  
+
+---
+
+### User Experience Improvements
+- Add a “favourite sport” feature using local storage  
+- Allow users to submit feedback through the contact form  
+- Add interactive sports quiz or fun facts section  
 
 **Documentation completed:** 15.4. 2026  
 **Total pages:** 5  
