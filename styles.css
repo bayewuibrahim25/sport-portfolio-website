@@ -1,133 +1,182 @@
-/* GENERAL PAGE STYLE */
+/* =========================
+   ROOT VARIABLES
+   ========================= */
 
-body{
-font-family: Arial, sans-serif;
-margin:0;
-background:#f4f4f4;
-line-height:1.6;
+:root {
+  --primary: #1E3A8A;
+  --accent: orange;
+  --bg: #f4f4f4;
+  --text: #111;
+  --white: #ffffff;
+  --dark: #333;
 }
 
-header{
-background:#1E3A8A;
-color:white;
-padding:20px;
-text-align:center;
+/* =========================
+   GENERAL PAGE STYLE
+   ========================= */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: var(--bg);
+  line-height: 1.6;
+  color: var(--text);
 }
 
-/* FLEXBOX NAVIGATION */
+/* =========================
+   HEADER
+   ========================= */
 
-nav ul{
-display:flex;
-justify-content:center;
-gap:25px;
-list-style:none;
-padding:10px;
-background:#333;
-margin:0;
+header {
+  background: var(--primary);
+  color: var(--white);
+  padding: 20px;
+  text-align: center;
 }
 
-nav ul li a{
-color:white;
-text-decoration:none;
-font-weight:bold;
+/* =========================
+   FLEXBOX NAVIGATION
+   ========================= */
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+  padding: 10px;
+  background: var(--dark);
+  margin: 0;
+  flex-wrap: wrap;
 }
 
-nav ul li a:hover{
-color:orange;
+nav ul li a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
-/* GRID LAYOUT FOR HOME PAGE */
-
-.sports-grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:20px;
-padding:20px;
+nav ul li a:hover {
+  color: var(--accent);
 }
 
-.card{
-background:white;
-padding:20px;
-border-radius:8px;
-box-shadow:0 2px 5px rgba(0,0,0,0.2);
+/* =========================
+   GRID LAYOUT (HOME PAGE)
+   ========================= */
+
+.sports-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
 
-/* IMAGES */
+/* =========================
+   FLEXBOX (SECOND USAGE)
+   Card layout improvement
+   ========================= */
 
-img{
-max-width:100%;
-border-radius:5px;
+.card {
+  background: var(--white);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+  /* required interaction improvement */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* TABLES */
-
-table{
-width:100%;
-border-collapse:collapse;
-margin-top:20px;
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-th, td{
-border:1px solid #ccc;
-padding:10px;
-text-align:center;
+/* =========================
+   IMAGES
+   ========================= */
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
 }
 
-th{
-background:#1E3A8A;
-color:white;
+/* =========================
+   TABLES
+   ========================= */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-/* FORM */
-
-form{
-background:white;
-padding:20px;
-max-width:500px;
-margin:auto;
-border-radius:8px;
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
 }
 
-input, textarea{
-width:100%;
-padding:10px;
-margin-bottom:10px;
-border:1px solid #ccc;
+th {
+  background: var(--primary);
+  color: var(--white);
 }
 
-button{
-background:#1E3A8A;
-color:white;
-border:none;
-padding:10px 20px;
-cursor:pointer;
+/* =========================
+   FORM
+   ========================= */
+
+form {
+  background: var(--white);
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
 }
 
-button:hover{
-background:#0f2a66;
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
 }
 
-/* FOOTER */
-
-footer{
-text-align:center;
-padding:20px;
-background:#333;
-color:white;
-margin-top:20px;
+button {
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
-/* RESPONSIVE DESIGN */
-
-@media (max-width:768px){
-
-nav ul{
-flex-direction:column;
-align-items:center;
+button:hover {
+  background: #0f2a66;
 }
 
-.sports-grid{
-grid-template-columns:1fr;
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--dark);
+  color: var(--white);
+  margin-top: 20px;
 }
 
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 768px) {
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sports-grid {
+    grid-template-columns: 1fr;
+  }
 }
