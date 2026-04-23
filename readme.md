@@ -4,7 +4,7 @@
 **Project:** Sports Hub Website  
 **Repository:** [GitHub Repo Link]  
 **Live Site:** [GitHub Pages Link]  
-**Completion Date:** 23.04.2026
+**Completion Date:** 15.04.2026
 
 ---
 
@@ -193,5 +193,5 @@ This project helped me understand how real websites are structured and how impor
 
 ---
 
-**Documentation completed:** 23.4. 2026  
+**Documentation completed:** 15.4. 2026  
 **Total pages:** 5  
