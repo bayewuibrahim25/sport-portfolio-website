@@ -2,7 +2,7 @@
 
 **Your Name:** Ibrahim Bayewu
 **Project:** Sports Hub Website  
-**Repository:** [GitHub Repo Link]  
+**Repository:** https://github.com/bayewuibrahim25/sport-portfolio-website
 **Live Site:** https://bayewuibrahim25.github.io/sport-portfolio-website/  
 **Completion Date:** 15.04.2026
 
