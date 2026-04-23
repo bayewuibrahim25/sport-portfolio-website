@@ -116,20 +116,34 @@ Special features: HTML form with multiple inputs
 
 ---
 
-## 5. Design Principles
 
-### Contrast
-Important headings and tables use strong blue backgrounds and white text to stand out.
+## 5. Content
 
-### Repetition
-Navigation bar, card design, and fonts are consistent across all pages.
+### Content Sources
 
-### Alignment
-All content is structured using centered layouts and consistent spacing.
+### Where did your content come from?
 
-### Proximity
-Related information (player stats, sports descriptions) is grouped into sections and cards.
+**Text:**
+All written content was created by me. This includes descriptions of football, basketball, and training exercises. I used my own knowledge of sports combined with general educational information.
 
+**Images:**
+Images were sourced from free online sports images and stored in the images folder of my project. They are used for educational purposes only.
+
+**Data:**
+Sports facts, player achievements, and statistics were based on general sports knowledge and publicly available information from official sports organizations.
+
+Examples of sources used for reference:
+- ESPN (sports news and statistics)
+- FIFA official website (football information)
+- NBA official website (basketball information)
+- Healthline Fitness (training and exercise information)
+
+**Other:**
+External links included in the website:
+- https://www.espn.com
+- https://www.fifa.com
+- https://www.nba.com
+- https://www.healthline.com
 ---
 
 ## 6. Navigation
